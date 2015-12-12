@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+
+img {
+	border: 0px;
+}
+
+.t_msg_card {
+	font: 12px/1.5 微软雅黑, Tahoma, Helvetica, 'SimSun', sans-serif;
+	border: 1px solid green;
+	font-size: small;
+}
+
+.t_msg_card td { /* border: 1px solid green; */
+	padding: 3px;
+}
+
+.fontcenter {
+	text-align: center;
+}
+
+.fontlarg {
+	font-size: small;
+	font-weight: bold;
+}
+
+.ta {
+	width: 160px;
+}
+
+.ta a {
+	padding-left: 20px;
+}
+
+.index span {
+	margin-left: 120px;
+}
+
+.tb {
+	width: 660px;
+	border-left: 1px solid green;
+}
+
+.tb2 {
+	margin-left: 535px;
+}
+
+.tb3 {
+	margin-left: 50px;
+}
+
+.tb1 {
+	padding-left: 20px;
+}
+
+.tc {
+	width: 150px;
+}
+
+.td {
+	width: 705px;
+}
+
+.tc1 span {
+	padding-left: 70px;
+}
+
+.cardt1 {
+	background: #e5edf2;
+	font-size: small;
+	font-weight: bold;
+	height: 30px;
+	padding-top: 10px;
+	border-top: 1px solid #c2d5e3;
+	border-bottom: 1px solid #c2d5e3;
+}
+
+.cardt2 {
+	height: 25px;
+	font-size: small;
+	border-bottom: 1px solid #c2d5e3;
+	padding-top: 6px;
+}
+
+.tbb21 {
+	margin-left: 85px;
+}
+
+.post {
+	margin-left: 40px;
+}
+
+.pagenum {
+	width: 30px;
+}

@@ -1,0 +1,61 @@
+.public {
+	text-align: left;
+}
+
+.public tr {
+	height: 40px;
+}
+
+.public td {
+	border-bottom: 1px solid gray;
+}
+
+.public th {
+	text-align: left;
+	border-bottom: 1px solid gray;
+}
+
+.t1  td {
+	text-align: center;
+}
+
+.t1 th {
+	width: 680px;
+}
+
+.t1 .t1a {
+	text-align: left;
+}
+
+.t2a {
+	text-align: center;
+	width: 30px;
+	margin: 0 auto;
+}
+
+.font {
+	font-size: small;
+}
+
+img {
+	border: 0px;
+	border-style: none;
+}
+
+.preview {
+	width: 90px;
+}
+
+.t2b {
+	width: 550px;
+}
+
+.t2c {
+	width: 110px;
+}
+
+.t2d {
+	width: 60px;
+	text-align: center;
+	margin: 0 auto;
+}

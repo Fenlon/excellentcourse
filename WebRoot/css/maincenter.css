@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+
+body {
+	font-size: medium;
+}
+
+.table1 {
+	width: 960px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.table2 {
+	width: 668px;
+	text-align: center;
+}
+
+.maintable1 table td {
+	font-size: small;
+}
+
+.label1 {
+	font-size: larger;
+	background-color: #E5EBF1;
+}
+
+.news div {
+	overflow: hidden;
+}
+
+.msgcard {
+	height: 150px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+
+.news {
+	border: 1px solid #AAAAAA;
+	width: 250px;
+	height: 150px;
+	font-size: small;
+}
+
+.tuijian {
+	margin-top: 5px;
+	background: #eae3f1;
+}
+
+.more {
+	font-size: smaller;
+}
+
+.tuijian div {
+	margin-top: 4px;
+}
+
+.scrollNews {
+	width: 250px;
+	height: 150px;
+	overflow: hidden;
+	background: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+
+.item div {
+	height: 25px;
+	padding-left: 10px;
+	border-bottom: 1px dotted gray;
+}

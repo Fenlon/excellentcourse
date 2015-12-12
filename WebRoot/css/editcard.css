@@ -1,0 +1,62 @@
+#container {
+	border: 1px dotted #CDCDCD;
+}
+
+* {
+	padding: 0px;
+}
+
+.edittable {
+	background: #e5edf2;
+}
+
+.edittable td {
+	border-bottom: 1px dotted #CDCDCD;
+}
+
+.edittable tr {
+	height: 50px;
+}
+
+.aa {
+	width: 180px;
+	text-align: center;
+}
+
+.bb {
+	width: 600px;
+	border-bottom: 1px solid #CDCDCD;
+}
+
+.bb .b1 {
+	width: 400px;
+}
+
+.edittable table tr {
+	height: 15px;
+	font-size: small;
+}
+
+.edittable table td {
+	border: 0px;
+}
+
+.b2 {
+	font-size: small;
+	color: graytext;
+	font-weight: lighter;
+}
+
+.s {
+	width: 70px;
+	height: 30px;
+	background: #2662b2;
+}
+
+.s div {
+	width: 200px;
+}
+
+.s input {
+	margin-left: 20px;
+}

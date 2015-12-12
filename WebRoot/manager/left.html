@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>left.html</title>
+
+<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+<meta http-equiv="description" content="this is my page">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" type="text/css" href="../css/manager.css">
+<style type="text/css">
+a {
+	color: blue;
+}
+
+body {
+	background-color: #82A466;
+}
+</style>
+</head>
+
+<body>
+	<div id="container">
+		<div>
+			<img alt="" src="../pages/image/jq1.jpg" style="width:148px;" />
+		</div>
+		<div class="diva">
+			<a href="../servlet/PrivilegeServlet?method=listall" target="right">权限管理</a>
+		</div>
+		<div class="diva">
+			<a href="../servlet/LinkServlet?method=listall" target="right">链接管理</a>
+		</div>
+
+		<div class="diva">
+			<a href="../servlet/RoleServlet?method=listall" target="right">角色管理</a>
+		</div>
+		<div class="diva">
+			<a href="../servlet/UserServlet?method=listall" target="right">用户管理</a>
+		</div>
+		<div class="diva">
+			<a href="../servlet/ForumServlet?method=listall" target="right">论坛管理</a>
+		</div>
+		<div class="diva">
+			<a href="../servlet/ListFileServlet" target="right">资源管理</a>
+		</div>
+		<div class="diva">
+			<a href="http://localhost:8080/OnlLineText/servlet/Tiao"
+				target="_blank">题库管理</a>
+		</div>
+		<div class="diva">
+			<a href="../servlet/NoticeServlet?method=listall&page=''"
+				target="right">公告管理</a>
+		</div>
+		<div class="diva">
+			<a target="right" href="user/listonlineuser.jsp">在线列表</a>
+		</div>
+	</div>
+</body>
+</html>

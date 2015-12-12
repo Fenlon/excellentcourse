@@ -1,0 +1,232 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#messagepanel {
+	width: 230px;
+	height: 160px;
+	border: 1px solid gray;
+	position: fixed;
+	right: 0px;
+	top: 76.1%;
+	display: none;
+	z-index: 999;
+}
+
+.msgtitle {
+	height: 23px;
+	background: gray;
+	font-size: small;
+	padding: 3px;
+}
+
+.msgtitle1 {
+	margin-left: 140px;
+}
+
+#msgcontent {
+	background: #CCCC99;
+	height: 90px;
+	text-align: center;
+	font-size: small;
+	padding-top: 10px;
+}
+
+#msgbottom {
+	border-top: 1px dotted gray;
+	height: 30px;
+	background: #CCCC99;
+}
+
+.div1 {
+	width: 960px;
+}
+
+.div1 ul li:hover {
+	background-color: #6699FF;
+}
+
+a:HOVER,a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+.tbb1ul {
+	font-size: medium;
+	background: #c9c9a7;
+	padding: 0px;
+	height: 40px;
+	margin: 0px;
+}
+
+.tbb1ul li {
+	float: left;
+}
+
+ul li {
+	line-height: 40px;
+	height: 40px;
+	width: 87px;
+	padding-top: 10px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.div2 dl {
+	width: 87px;
+	margin: 0px;
+	float: left;
+}
+
+.div2,dl {
+	height: 180px;
+}
+
+.div2 {
+	width: 960px;
+	height: 180px;
+	background-color: #CCCCFF;
+	font: 14px/1.5 微软雅黑, Tahoma, Helvetica, 'SimSun', sans-serif;
+	opacity: 0.9;
+}
+
+.div2 dl img {
+	width: 85px;
+}
+
+dl dt {
+	display: none;
+}
+
+dl dd {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 1px;
+}
+
+.taa12 {
+	width: 460px;
+}
+
+.taa13 {
+	width: 500px;
+}
+
+.taa1 td {
+	background: gray;
+	height: 65px;
+	text-align: right;
+}
+
+.tbb1 {
+	width: 960px;
+}
+
+.taa2 td {
+	text-align: center;
+	height: 30px;
+	width: 80px;
+	font-size: x-small;
+}
+
+.taa2 input {
+	background: gray;
+	border: 1px dotted pink;
+}
+
+.taa11 {
+	margin-left: 100px;
+	text-align: right;
+}
+
+.tcc1 {
+	width: 960px;
+}
+
+.tcc1 td {
+	border: 1px dotted green;
+}
+
+.hide {
+	display: none;
+}
+
+#login {
+	width: 450px;
+	height: 300px;
+	border: 3px solid black;
+	margin: 0 auto;
+	position: fixed;
+	left: 34%;
+	top: 30%;
+	overflow: auto;
+	display: none;
+	background-color: pink;
+	font-size: medium;
+	font-weight: 700;
+}
+
+#login #a {
+	margin: 0 auto;
+	width: 420px;
+	height: 240px;
+	border: 1px solid green;
+	text-align: center;
+}
+
+#b {
+	margin-left: 399px;
+}
+
+#a .a {
+	color: green;
+}
+
+#a table {
+	margin: 50px auto 0px 60px;
+	text-align: right;
+}
+
+#a table tr {
+	height: 40px;
+	margin-top: 20px;
+}
+
+#c {
+	margin-left: -30px;
+}
+
+* {
+	word-wrap: break-word;
+}
+
+.onlinetea {
+	position: fixed;
+	right: 0px;
+	top: 22%;
+}
+
+.teaa1 {
+	text-align: center;
+	width: 30px;
+	background: #f5edbc;
+	cursor: pointer;
+}
+
+.oltea iframe {
+	width: 158px;
+	height: 300px;
+	border: 1px solid green;
+}
+
+.oltea {
+	display: none;
+	width: 158px;
+}

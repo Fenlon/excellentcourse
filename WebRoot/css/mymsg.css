@@ -1,0 +1,46 @@
+#left {
+	width: 300px;
+	background: gray;
+}
+
+.mymsgt {
+	width: 960px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.notice_pm {
+	background-position: 0 0;
+}
+
+.em {
+	height: 20px;
+	line-height: 17px;
+}
+
+.notice_mycard {
+	background-position: 0 -33px;
+}
+
+.notice_system {
+	background-position: 0 -101px;
+}
+
+.notice_pm,.notice_mycard,.notice_system {
+	float: left;
+	width: 18px;
+	height: 14px;
+	background-image: url(../images/icos/ico_notice.png);
+	height: 14px;
+}
+
+#a {
+	
+}
+
+#right {
+	background: #CCCC99;
+	padding-left: 50px;
+}

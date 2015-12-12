@@ -1,0 +1,39 @@
+body {
+	border: 0px;
+	font: 12px/1.5 微软雅黑, Tahoma, Helvetica, 'SimSun', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+iframe {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:HOVER {
+	text-decoration: none;
+	color: #551a88;
+}
+
+a:LINK {
+	color: #551a88;
+}
+
+a:ACTIVE {
+	color: #551a88;
+}
+
+a:VISITED {
+	color: #551a88;
+}
+
+#container {
+	margin: 0 auto;
+	width: 960px;
+	border: 1px solid gray;
+}

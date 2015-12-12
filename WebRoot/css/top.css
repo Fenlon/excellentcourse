@@ -1,0 +1,86 @@
+#login {
+	width: 450px;
+	height: 300px;
+	border: 3px solid black;
+	margin: 0 auto;
+	position: fixed;
+	left: 34%;
+	top: 30%;
+	overflow: auto;
+	display: none;
+	background-color: pink;
+	font-size: medium;
+	font-weight: 700;
+}
+
+#login #a {
+	margin: 0 auto;
+	width: 420px;
+	height: 240px;
+	border: 1px solid green;
+	text-align: center;
+}
+
+#b {
+	margin-left: 399px;
+}
+
+#a .a {
+	color: green;
+}
+
+#a table {
+	margin: 50px auto 0px 60px;
+	text-align: right;
+}
+
+#a table tr {
+	height: 40px;
+	margin-top: 20px;
+}
+
+#c {
+	margin-left: -30px;
+}
+
+* {
+	word-wrap: break-word;
+}
+
+#info {
+	width: 300px;
+	height: 50px;
+	background-color: gray;
+}
+
+#daohangbar {
+	height: 50px;
+	background: green;
+	font-weight: bold;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+#daohangbar ul {
+	list-style-type: circle;
+}
+
+#daohangbar ul li {
+	list-style: none;
+	padding-right: 1px;
+	float: left;
+	padding-right: 10px;
+	padding-top: 9px;
+	height: 33px;
+	line-height: 33px;
+	font-weight: 700;
+	font-size: 24px;
+}

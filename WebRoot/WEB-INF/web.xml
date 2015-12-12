@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<servlet>
+		<servlet-name>UserServlet</servlet-name>
+		<servlet-class>com.dph.web.UI.UserServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UserServlet</servlet-name>
+		<url-pattern>/servlet/UserServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>RandomImageServlet</servlet-name>
+		<servlet-class>com.dph.web.UI.RandomImageServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>BBSUIServlet</servlet-name>
+		<servlet-class>com.dph.web.UI.BBSUIServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>BBSServlet</servlet-name>
+		<servlet-class>com.dph.web.controller.BBSServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CardServlet</servlet-name>
+		<servlet-class>com.dph.web.controller.CardServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ServiceServlet</servlet-name>
+		<servlet-class>com.dph.web.controller.ServiceServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>TestServlet</servlet-name>
+		<servlet-class>com.dph.web.controller.TestServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ForumServlet</servlet-name>
+		<servlet-class>com.dph.web.controller.ForumServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>RemindMsgServlet</servlet-name>
+		<servlet-class>com.dph.web.controller.RemindMsgServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SendEmailServlet</servlet-name>
+		<servlet-class>com.dph.web.controller.SendEmailServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ResetPwdServlet</servlet-name>
+		<servlet-class>com.dph.web.controller.ResetPwdServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ManagerServlet</servlet-name>
+		<servlet-class>com.dph.web.controller.ManagerServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>PrivilegeServlet</servlet-name>
+		<servlet-class>com.dph.web.controller.PrivilegeServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>MsgBoardServlet</servlet-name>
+		<servlet-class>com.dph.web.controller.MsgBoardServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>LinkServlet</servlet-name>
+		<servlet-class>com.dph.web.controller.LinkServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>RoleServlet</servlet-name>
+		<servlet-class>com.dph.web.controller.RoleServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ChatServlet</servlet-name>
+		<servlet-class>com.dph.chat.ChatServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DownLoadServlet</servlet-name>
+		<servlet-class>com.dph.web.resource.DownLoadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DownLoadServlet</servlet-name>
+		<url-pattern>/servlet/DownLoadServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ListFileServlet</servlet-name>
+		<servlet-class>com.dph.web.resource.ListFileServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListFileServlet</servlet-name>
+		<url-pattern>/servlet/ListFileServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UpfileServlet</servlet-name>
+		<servlet-class>com.dph.web.resource.UpfileServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpfileServlet</servlet-name>
+		<url-pattern>/servlet/UpfileServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>UpheadServlet</servlet-name>
+		<servlet-class>com.dph.web.resource.UpheadServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>NoticeServlet</servlet-name>
+		<servlet-class>com.dph.web.controller.NoticeServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>MainCenterUIServlet</servlet-name>
+		<servlet-class>com.dph.web.UI.MainCenterUIServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>KickServlet</servlet-name>
+		<servlet-class>com.dph.web.controller.KickServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KickServlet</servlet-name>
+		<url-pattern>/servlet/KickServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>upHeadServlet</servlet-name>
+		<servlet-class>com.dph.web.controller.upHeadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>upHeadServlet</servlet-name>
+		<url-pattern>/servlet/upHeadServlet</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet-mapping>
+		<servlet-name>UpheadServlet</servlet-name>
+		<url-pattern>/servlet/UpheadServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RandomImageServlet</servlet-name>
+		<url-pattern>/servlet/RandomImageServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BBSUIServlet</servlet-name>
+		<url-pattern>/servlet/BBSUIServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BBSServlet</servlet-name>
+		<url-pattern>/servlet/BBSServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CardServlet</servlet-name>
+		<url-pattern>/servlet/CardServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ServiceServlet</servlet-name>
+		<url-pattern>/servlet/ServiceServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>TestServlet</servlet-name>
+		<url-pattern>/servlet/TestServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ForumServlet</servlet-name>
+		<url-pattern>/servlet/ForumServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RemindMsgServlet</servlet-name>
+		<url-pattern>/servlet/RemindMsgServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SendEmailServlet</servlet-name>
+		<url-pattern>/servlet/SendEmailServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ResetPwdServlet</servlet-name>
+		<url-pattern>/servlet/ResetPwdServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ManagerServlet</servlet-name>
+		<url-pattern>/servlet/ManagerServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PrivilegeServlet</servlet-name>
+		<url-pattern>/servlet/PrivilegeServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MsgBoardServlet</servlet-name>
+		<url-pattern>/servlet/MsgBoardServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LinkServlet</servlet-name>
+		<url-pattern>/servlet/LinkServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RoleServlet</servlet-name>
+		<url-pattern>/servlet/RoleServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ChatServlet</servlet-name>
+		<url-pattern>/servlet/ChatServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>NoticeServlet</servlet-name>
+		<url-pattern>/servlet/NoticeServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MainCenterUIServlet</servlet-name>
+		<url-pattern>/servlet/MainCenterUIServlet</url-pattern>
+	</servlet-mapping>
+
+
+
+	<filter>
+		<filter-name>CharsetFilter</filter-name>
+		<filter-class>com.dph.web.filter.CharsetFilter</filter-class>
+		<init-param>
+			<param-name>charset</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>CharsetFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>TransactionFilter</filter-name>
+		<filter-class>com.dph.web.filter.TransactionFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>TransactionFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>AutoLoginFilter</filter-name>
+		<filter-class>com.dph.web.filter.AutoLoginFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>AutoLoginFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>SecurityFilter</filter-name>
+		<filter-class>com.dph.web.filter.SecurityFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>SecurityFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+
+
+	<!-- <filter> <filter-name>HtmlFilter</filter-name> <filter-class>com.dph.web.filter.HtmlFilter</filter-class> 
+		</filter> <filter-mapping> <filter-name>HtmlFilter</filter-name> <url-pattern>/*</url-pattern> 
+		</filter-mapping> -->
+	<!-- <filter> <filter-name>GzipFilter</filter-name> <filter-class>com.dph.web.filter.GzipFilter</filter-class> 
+		</filter> <filter-mapping> <filter-name>GzipFilter</filter-name> <url-pattern>*.jsp</url-pattern> 
+		<url-pattern>*.html</url-pattern> <url-pattern>*.htm</url-pattern> <url-pattern>*.js</url-pattern> 
+		<url-pattern>*.css</url-pattern> <dispatcher>REQUEST</dispatcher> <dispatcher>FORWARD</dispatcher> 
+		</filter-mapping> -->
+	<listener>
+		<listener-class>com.dph.web.listener.MyServletContextListener</listener-class>
+	</listener>
+	<listener>
+		<listener-class>com.dph.web.listener.UserListener</listener-class>
+	</listener>
+</web-app>

@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>index.html</title>
+<meta name="content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="../../css/common.css">
+<link rel="stylesheet" type="text/css" href="../page.css">
+<style type="text/css">
+</style>
+</head>
+
+<body>
+	<div id="container">
+		<table cellpadding="0" cellspacing="0">
+			<tr>
+				<td colspan="2" class="td1"><img alt="" src="../image/3q.jpg"></td>
+			</tr>
+
+			<tr>
+				<td colspan="2" class="td2">
+					<div class="div1">
+						<ul>
+							<li class="k"><a href="/ExcellentCourse/index.jsp">首页</a></li>
+							<li class="a"><a href="../DescribeCourse/index.html">课程介绍</a></li>
+							<li class="b"><a href="../TeachTeam/index.html">教学团队</a></li>
+							<li class="c"><a href="../TeachResources/index.html">教学资源</a></li>
+							<li class="d"><a href="../TeachExperiment/index.html">实验教学</a></li>
+							<li class="e"><a href="../TeachStudy/index.html">教学研究</a></li>
+							<li class="f"><a href="../TeachFruit/index.html">教学成果</a></li>
+							<li class="g"><a href="#">在线学习</a></li>
+							<li class="h"><a
+								href="${pageContext.request.contextPath }/servlet/ListFileServlet"
+								target="maincenter">下载专区</a></li>
+							<li class="i"><a
+								href="${pageContext.request.contextPath }/servlet/ForumServlet?method=forForumUI"
+								target="maincenter">在线论坛</a></li>
+							<li class="j"><a
+								href="${pageContext.request.contextPath }/servlet/MsgBoardServlet?method=forMsgBoardUI"
+								target="maincenter">留言板</a></li>
+						</ul>
+					</div>
+				</td>
+			</tr>
+
+
+			<tr>
+				<td colspan="2" class="td3">当前位置：<a
+					href="/ExcellentCourse/index.jsp"
+					style="color:#808000;font-weight: bold;">首页</a>>><a
+					href="index.html">教学团队</a>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="td41">
+					<ul>
+						<li style="width:150px;height: 130px"><img alt=""
+							src="../image/jq1.jpg" style="width:148px;"></li>
+						<li><a href="condition.htm" target="center">基本情况</a></li>
+						<li><a href="principal.htm" target="center">课程负责人</a></li>
+						<li><a href="teacher.htm" target="center">主讲教师</a></li>
+					</ul>
+
+				</td>
+				<td class="td42"><iframe id="iFrame1"
+						onload="this.height=iFrame1.document.body.scrollHeight"
+						name="center" src="condition.htm"></iframe></td>
+			</tr>
+
+			<tr>
+				<td width="960px" colspan="2"><iframe id="bottom"
+						class="bottom" src="../bottom.html" scrolling="no" name="bottom"></iframe></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
